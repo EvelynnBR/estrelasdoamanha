@@ -13,15 +13,61 @@
     </head>
     <body>
         <div id="app">
-            <main id="main-container">
-                <div class="back">
-                    <img src="assets/ico/arrow-left.svg" alt="seta para esquerda">
-                    <span class="text-hd-p">Voltar</span>
+            <main>
+                <div id="main-container">
+                    <div class="back">
+                        <img src="assets/ico/arrow-left.svg" alt="seta para esquerda">
+                        <span class="text-hd-p">Voltar</span>
+                    </div>
+                    <header>
+                        <h2>Formulário de matrícula</h2>
+                        <p class="text-hd-p">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+                    </header>
+
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <fieldset>
+                            <legend>Informações da criança</legend>
+
+                            <div class="wrapper-form">
+                                <label for="fullname">Nome completo</label>
+                                <input
+                                type="text"
+                                name="fullname"
+                                id="fullname"
+                                placeholder="nome do(a) aluno(a)">
+                            </div>
+
+                            <div class="wrapper-form">
+                                <label for="birth">Data de nascimento</label>
+                                <input
+                                type="date"
+                                name="birth"
+                                id="birth">
+                            </div>
+                            <div class="wrapper-gender">
+                                <label for="gender">Sexo</label>
+                                <select name="gender" id="gender">
+                                    <option value="female">Femenino</option>
+                                    <option value="male">masculino</option>
+                                    <option value="other">Outros</option>
+                                </select>
+                            </div>
+                            <div class="wrapper-textarea">
+                                <label for="info-medical">Infomações Médicas</label>
+                                <textarea
+                                name="info-medical"
+                                id="info-medical"
+                                placeholder="A criança tem alergia alguma coisa??"></textarea>
+                            </div>
+                            <div class="droparea-wrapper">
+                                <label for="birth-file">Cetidão de nascimento</label>
+                                <input type="file" name="birth-file" id="birth-file">
+                                <img src="assets/ico/cloud-upload.svg" alt="">
+                                <p>Clique aqui para <br> selecionar arquivos</p>
+                            </div>
+                        </fieldset>
+                    </form>
                 </div>
-                <header>
-                    <h2>Formulário de matrícula</h2>
-                    <p class="text-hd-p">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
-                </header>
             </main>
             <aside id="aside-container">
                 <header>
