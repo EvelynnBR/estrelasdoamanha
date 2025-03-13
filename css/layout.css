@@ -10,9 +10,10 @@ main{
     padding: 4rem;
     margin-left: auto;
 }
-
-main header{
+#main-container{
     max-width: 33rem;
+}
+main header{
     margin-bottom: 3rem;
 }
 main h2{
@@ -20,7 +21,6 @@ main h2{
 }
 .back{
     display: flex;
-    max-width: 33rem;
     align-items: center;
     gap: .5rem;
     margin-bottom: 1.5rem;

@@ -22,3 +22,8 @@ h2{
 img{
     max-width: 100%;
 }
+
+legend{
+    font: var(--legend);
+    color: --text-primary;
+}
