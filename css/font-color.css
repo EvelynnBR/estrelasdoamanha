@@ -1,0 +1,22 @@
+:root{
+    /* fontes */
+    --font-family: "Poppins", sans-serif;
+
+    --h1: 600 2.5rem/1.25 var(--font-family);
+    --h2: 600 1.5rem/1.25 var(--font-family);
+    --legend: 600 1rem/1.25 var(--font-family);
+
+    --header-p: 400 1rem/1.50 var(--font-family);
+    --p: 400 1rem/1.40 var(--font-family);
+
+    /* cores */
+    --text-primary: #292524;
+    --text-secondary: #57534E;
+    --text-tertiary: #8F8881;
+    --text-highlight: #E43A12;
+
+    --surface-secondary: #FEE7D6;
+    --surface-disabled: #E7E5E4;
+
+    --semantic-error: #DC2626:
+}
