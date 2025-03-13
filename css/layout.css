@@ -8,10 +8,22 @@
 main{
     overflow: auto;
     padding: 4rem;
-}
-#main-container{
-    max-width: 33rem;
     margin-left: auto;
+}
+
+main header{
+    max-width: 33rem;
+    margin-bottom: 3rem;
+}
+main h2{
+    margin-bottom: .5rem;
+}
+.back{
+    display: flex;
+    max-width: 33rem;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
 }
 aside{
     background-color: var(--surface-secondary);
