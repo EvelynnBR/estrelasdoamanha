@@ -29,6 +29,7 @@ main h2{
 aside{
     background-color: var(--surface-secondary);
     padding: 4rem;
+    zoom: 0.9;
 }
 aside header{
     max-width: 31rem;

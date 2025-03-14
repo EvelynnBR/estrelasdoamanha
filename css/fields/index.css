@@ -1,3 +1,5 @@
+@import url(droparea.css);
+
 input, textarea, select{
     appearance: none;
     width: 100%;
@@ -36,4 +38,8 @@ input[type="date"]{
 select{
     background: url(../../assets/ico/seta-baixo.svg)
     no-repeat calc(100% - 1rem);
+}
+
+textarea{
+    height: 7.5rem;
 }
