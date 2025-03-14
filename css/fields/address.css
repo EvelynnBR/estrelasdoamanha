@@ -1,0 +1,18 @@
+#address{
+    margin-top: 3rem;
+
+    & .address{
+        display: grid;
+        grid-template-columns: 62.88% 33.33%;
+        gap: 1.50rem 1.25rem;
+    }
+
+    & .rua label, & .city label, & .state label{
+        color: var(--text-tertiary);
+    }
+
+    & .rua input, & .city input, & .state input{
+        background-color: var(--surface-disabled);
+        color: var(--text-tertiary);
+    }
+}

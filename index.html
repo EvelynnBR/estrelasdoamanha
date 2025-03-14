@@ -76,6 +76,55 @@
                                 </div>
                             </div>
                         </fieldset>
+
+                        <fieldset id="address">
+                            <legend>Endereço residencial</legend>
+
+                            <address class="cep">
+                                <label for="cep">CEP</label>
+                                <input
+                                type="number"
+                                name="cep" 
+                                id="cep"
+                                placeholder="Digite seu cep">
+                            </address>
+                            
+                            <address class="address">
+                                <div class="rua">
+                                    <label for="rua">Rua</label>
+                                    <input
+                                    type="text"
+                                    id="rua"
+                                    value="Sua rua"
+                                    disabled>
+                                </div>
+                                <div class="number">
+                                    <label for="number">Número</label>
+                                    <input
+                                    type="number"
+                                    name="number"
+                                    id="number"
+                                    placeholder="Número">
+                                </div>
+                                <div class="city">
+                                    <label for="city">Cidade</label>
+                                    <input
+                                    type="text"
+                                    id="city"
+                                    value="Qual sua cidade"
+                                    disabled>
+                                </div>
+                                <div class="state">
+                                    <label for="state">Estado</label>
+                                    <input
+                                    type="text"
+                                    name="state"
+                                    id="state"
+                                    value="Seu Estato"
+                                    disabled>
+                                </div>
+                            </address>
+                        </fieldset>
                     </form>
                 </div>
             </main>
