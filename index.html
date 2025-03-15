@@ -25,8 +25,8 @@
                         <p class="text-hd-p">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
                     </header>
 
-                    <form action="" method="post" enctype="multipart/form-data">
-                        <fieldset>
+                    <form action="" method="get" enctype="multipart/form-data">
+                        <fieldset class="info-kid">
                             <legend>Informações da criança</legend>
 
                             <div class="wrapper-form">
@@ -125,6 +125,37 @@
                                     disabled>
                                 </div>
                             </address>
+                        </fieldset>
+
+                        <fieldset class="info-parents">
+                            <legend>Informações do responsável</legend>
+
+                            <div class="name-parents">
+                                <label for="parents">Nome do responsável</label>
+                                <input
+                                type="text"
+                                id="parents"
+                                placeholder="Digite seu nome">
+                                <span>Principal responsável legal e contato de emergência</span>
+                            </div>
+                            <div class="fone">
+                                <label for="fone">Telefone</label>
+                                <input
+                                type="number"
+                                name="fone"
+                                id="fone"
+                                placeholder="(10) 9 8765-4321">
+                            </div>
+                            <div class="email">
+                                <label for="email">E-mail</label>
+                                <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                                
+                                placeholder="SeuEmail@gmail.com">
+                            </div>
                         </fieldset>
                     </form>
                 </div>
