@@ -45,3 +45,32 @@ select{
 textarea{
     height: 7.5rem;
 }
+
+.name-parents span{
+    display: block;
+    font: var(--p);
+    color: #78716C;
+    margin-top: .25rem;
+}
+
+.error{
+    display: flex;
+    margin-top: .25rem;
+    align-items: center;
+}
+
+.email{
+    & input:invalid{
+        border: 0.125rem solid var(--semantic-error);
+    }
+
+    & .alert{
+        font: var(--p);
+        color: var(--semantic-error);
+        margin-left: .25rem;
+    }
+
+    & input:not(:focus):valid + .error{
+        display: none;
+    }
+}

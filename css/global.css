@@ -30,3 +30,7 @@ option value{
     font: var(--p);
     color: var(--text-secondary);
 }
+
+fieldset + fieldset{
+    margin-top: 3rem;
+}

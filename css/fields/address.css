@@ -1,6 +1,4 @@
 #address{
-    margin-top: 3rem;
-
     & .address{
         display: grid;
         grid-template-columns: 62.88% 33.33%;
