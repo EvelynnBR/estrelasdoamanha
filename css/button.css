@@ -1,0 +1,33 @@
+.btn{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-top: 4rem;
+
+    & button{
+        font: 500 1rem/1.50 var(--font-family);
+        padding: 1.5rem .75rem;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+
+    & .btn-primary button{
+        border: 1px solid var(--text-highlight);
+        color: var(--text-highlight);
+    }
+
+    & .btn-primary button:hover{
+        outline: 4px solid var(--surface-secondary);
+    }
+
+
+    & .btn-secondary button{
+        background-color: var(--text-highlight);
+        border: none;
+        color: var(--surface-primary);
+    }
+
+    & .btn-secondary button:hover{
+        background-color: var(--stroke-highlight);
+    }
+}
