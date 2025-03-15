@@ -11,8 +11,7 @@ textarea:focus,
 select:focus,
 input[type="date"]:focus-within{
     outline: .25rem solid var(--surface-secondary);
-    border: 2px solid transparent;
-    border-color: var(--stroke-highlight);
+    border: .125rem solid var(--stroke-highlight);
     outline-offset: .1px;
 }
 
