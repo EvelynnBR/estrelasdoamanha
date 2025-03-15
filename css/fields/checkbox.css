@@ -1,0 +1,40 @@
+.terms-wrapper{
+    margin-top: 3rem;
+
+    & .input-checked{
+        display: flex;
+        gap: .75rem;
+        align-items: flex-start;
+
+        & strong{
+            font: 500 1rem/1.50 var(--font-family);
+            color: var(--text-highlight);
+        }
+        position: relative;
+        & input[type="checkbox"]{
+            all: unset;
+            position: absolute;
+            inset: 0;
+        }
+
+        & .checked-image{
+            background-image: url(../../assets/ico/checked-default.svg);
+            flex: 0 0 1.5rem;
+            height: 1.5rem;
+        }
+
+        &:hover, &:focus-within{
+            & .checked-image{
+                background-image: url(../../assets/ico/checked-hover.svg);
+            }
+        }
+
+        &:has(:checked){
+            & .checked-image{
+                background-image: url(../../assets/ico/checked-checked.svg);
+            }
+        }
+    }
+
+
+}
