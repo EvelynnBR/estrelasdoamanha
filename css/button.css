@@ -6,7 +6,7 @@
 
     & button{
         font: 500 1rem/1.50 var(--font-family);
-        padding: 1.5rem .75rem;
+        padding: .75rem 1.5rem;
         border-radius: .5rem;
         cursor: pointer;
     }
@@ -16,18 +16,19 @@
         color: var(--text-highlight);
     }
 
-    & .btn-primary button:hover{
-        outline: 4px solid var(--surface-secondary);
+    & .btn-primary button:hover, &:focus{
+        color: #E43A12;
+        outline: .25rem solid var(--surface-secondary);
     }
 
 
     & .btn-secondary button{
-        background-color: var(--text-highlight);
+        background-color: #E43A12;
         border: none;
         color: var(--surface-primary);
     }
 
-    & .btn-secondary button:hover{
+    & .btn-secondary button:hover, &:focus{
         background-color: var(--stroke-highlight);
     }
 }
