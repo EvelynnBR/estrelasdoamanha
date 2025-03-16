@@ -13,6 +13,7 @@ main{
 #main-container{
     max-width: 33rem;
     overflow: auto;
+    padding-inline:.25rem;
 }
 main header{
     margin-bottom: 3rem;
