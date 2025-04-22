@@ -3,7 +3,6 @@ fieldset{
     display: grid;
     border: none;
     gap: 1.5rem;
-    padding-inline: .25rem;
 }
 legend{
     font: var(--legend);

@@ -5,13 +5,16 @@
     height: 100dvh;
     overflow: hidden;
 }
+#mobile{
+    display: none;
+}
 main{
     overflow: auto;
-    padding: 4rem;
     margin-left: auto;
 }
 #main-container{
     max-width: 33rem;
+    padding: 4rem;
     overflow: auto;
 }
 main header{
@@ -41,4 +44,41 @@ aside h1{
 }
 aside p{
     margin-bottom: 2rem;
+}
+
+@media (width <= 47.93em){
+    #app{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        & main{
+            margin-inline: auto;
+        }
+
+        & #mobile{
+            display: grid;
+            background-color: var(--surface-secondary);
+            padding: 1.5rem;
+            gap: .75rem;
+
+            & img{
+                margin: auto;
+            }
+        }
+        & #aside-container{
+            display: none;
+        }
+
+        & #main-container{
+            padding: 1.5rem;
+            margin-inline: auto;
+        }
+
+        & #address{
+            & .address{
+                grid-template-columns: 1fr;
+            }
+        }
+
+    }
 }
