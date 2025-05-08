@@ -13,7 +13,7 @@
 
 ## 💻 Projeto
 
-Nesse projeto desenvolvir um fomulário de matrícula para uma escola que se chama Estrela do Amanhã
+Nesse projeto desenvolvi um fomulário de matrícula para uma escola que se chama Estrela do Amanhã
 - Veja o projeto: <a href="https://evelynnbr.github.io/estrelasdoamanha/"> Estrelas do Amanhã</a>
 
 ## 🚀 Tecnologias
