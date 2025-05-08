@@ -8,7 +8,7 @@
 <br>
 
 <p>
-  <img alt="Zingen" src="github/redme.jpg" width="100%">
+  <img alt="Estrelas do amanhã" src="github/redme.jpg" width="100%">
 </p>
 
 ## 💻 Projeto
